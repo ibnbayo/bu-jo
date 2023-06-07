@@ -27,6 +27,5 @@ From the repo:<br/>
 ## To Do
 - Aditional styling
 - Weekly aggregation of goals
-- 
 
 
