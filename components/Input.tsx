@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/Input.module.css'
 
 interface Props{
   goal: string,

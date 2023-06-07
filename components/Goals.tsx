@@ -2,7 +2,7 @@ import React from 'react'
 import { Goal } from '../model';
 import OneGoal from './Goal';
 
-
+import '../styles/Goals.module.css'
 
 interface Props{
     goals: Goal[];

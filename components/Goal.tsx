@@ -1,6 +1,8 @@
+
+
 import React, { useState } from 'react'
 import { Goal} from '../model'
-
+import './Goal.module.css'
 // import GoalList from './GoalList'
 
 type Props= {
@@ -31,23 +33,24 @@ const Goal = ({goal, goals, setGoals}:Props) => {
   return (
     <form className='todos__single'
     onSubmit={(e) => handleUpdate(e,goal.id)}>
-      {
-        update? (
-          <input value={updateGoal} onChange={(e) => setUpdateGoal(e.target.value)}
-          className="todos__single--text"/>
+      <div className="todos__single--text">
+        {
+          update? (
+            <input value={updateGoal} onChange={(e) => setUpdateGoal(e.target.value)}
+            className="todos__single--text"/>
 
-        ):(
-            goal.isCompleted? (
-              <s className='todos__single--text'>{goal.goal}</s>
-    
-            ):(
-              <span className='todos__single--text'>{goal.goal}</span>
-    
-            )
-
-        )
-      }
+          ):(
+              goal.isCompleted? (
+                <s className='todos__single--text'>{goal.goal}</s>
       
+              ):(
+                <span className='todos__single--text'>{goal.goal}</span>
+      
+              )
+
+          )
+        }
+      </div>
         
         <div>
             <span className='icon' onClick={() => {
