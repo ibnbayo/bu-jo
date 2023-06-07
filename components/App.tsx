@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Input from './Input'
 import Goals from './Goals'
 import { Goal } from '../model';
-import styles from '../styles/Home.module.css'
+// import styles from '../styles/Home.module.css'
 
 
 

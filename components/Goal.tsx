@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import { Goal} from '../model'
-import './Goal.module.css'
+// import './Goal.module.css'
 // import GoalList from './GoalList'
 
 type Props= {
