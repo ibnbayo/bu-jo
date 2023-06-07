@@ -25,8 +25,8 @@ From the repo:<br/>
   - `npm run dev` <br/>
 
 ## To Do
-- Add applicant count and publish status to job advert response. Published adverts should come first followed by
-adverts with the highest applicant count and then recently created adverts.
-- Allow guest users access to only published job adverts.
+- Aditional styling
+- Weekly aggregation of goals
+- 
 
 
